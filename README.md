@@ -19,17 +19,7 @@ Features
 
 How It Works
 
-Python Code Input
-       |
-       v
-Input Validation
-       |
-       v
-AST Parsing
-       |
-       v
-Rule-Based Static Analysis
-       |
+Python Code Input --> Input Validation --> AST Parsing --> Rule-Based Static Analysis
        +----> Code Overview
        +----> Line-by-Line Explanation
        +----> Complexity Estimate
@@ -49,7 +39,7 @@ Tech Stack
 - Language: Python
 - User Interface: Streamlit
 - Static Analysis: Python ast module
-- AI Model: Salesforce CodeT5 (`Salesforce/codet5-base-multi-sum`)
+- AI Model: Salesforce CodeT5 (Salesforce/codet5-base-multi-sum)
 - AI Framework: Hugging Face Transformers
 - Model Runtime: PyTorch
 
