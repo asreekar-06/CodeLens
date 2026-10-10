@@ -19,18 +19,7 @@ Features
 
 How It Works
 
-Python Code Input --> Input Validation --> AST Parsing --> Rule-Based Static Analysis
-       +----> Code Overview
-       +----> Line-by-Line Explanation
-       +----> Complexity Estimate
-       +----> Bug Hints
-       +----> Docstring Templates
-       |
-       v
-Optional CodeT5 Function Summaries
-       |
-       v
-Streamlit Results and Downloadable Report
+Python Code Input --> Input Validation --> AST Parsing --> Rule-Based Static Analysis (Code Overview, Line-by-Line Explanation, Complexity Estimate, Bug Hints, Docstring Templates) --> Optional CodeT5 Function Summaries --> Streamlit Results and Downloadable Report
 
 The main analysis engine uses Python's built-in ast module. CodeT5 is an optional component used for function summarization; it does not perform the project's complexity estimation or bug-hint checks.
 
